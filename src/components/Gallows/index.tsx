@@ -1,4 +1,4 @@
-import { GallowsComponent, Rope, Head, Body, Hand } from './GallowsElements'
+import { GallowsComponent, Rope, Head, Body, Hand, Leg } from './GallowsElements'
 import './styles.css'
 
 interface Props {
@@ -26,6 +26,12 @@ const Gallows: React.FC<Props> = ({ elementsToShow }) => {
       )}
       {elementsToShow > 5 && (
         <Hand side='right' />
+      )}
+      {elementsToShow > 6 && (
+        <Leg side='left' />
+      )}
+      {elementsToShow > 7 && (
+        <Leg side='right' />
       )}
     </div>
   )

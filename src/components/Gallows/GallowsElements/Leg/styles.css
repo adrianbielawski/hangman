@@ -1,0 +1,18 @@
+.leg {
+  position: absolute;
+  top: 200px;
+  width: 10px;
+  height: 60px;
+  background-color: var(--black);
+  z-index: -1;
+}
+
+.leg.left {
+  right: 31%;
+  transform: rotateZ(18deg);
+}
+
+.leg.right {
+  right: 25.5%;
+  transform: rotateZ(157deg);
+}

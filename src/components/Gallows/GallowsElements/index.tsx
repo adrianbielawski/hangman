@@ -3,6 +3,7 @@ import Rope from './Rope'
 import Head from './Head'
 import Body from './Body'
 import Hand from './Hand'
+import Leg from './Leg'
 
 export {
   GallowsComponent,
@@ -10,4 +11,5 @@ export {
   Head,
   Body,
   Hand,
+  Leg,
 }
