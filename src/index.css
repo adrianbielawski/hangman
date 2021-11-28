@@ -11,6 +11,8 @@ html, body, div, span, p, ul, li, input, button {
 
 :root {
   --white: #fff;
+  --black: #000;
+  --brown: #a52a2a;
   --light-blue: #E4F3F7;
   --dark-blue: #006d8b;
   --blue: #009BC1;

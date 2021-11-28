@@ -1,0 +1,25 @@
+.rope {
+  position: absolute;
+  top: 20px;
+  right: 30%;
+  z-index: -1;
+}
+
+.rope .vertical {
+  position: absolute;
+  width: 2px;
+  height: 70px;
+  background-color: var(--grey);
+  left: 50%
+}
+
+.rope .round {
+  display: block;
+  border: 3px solid var(--grey);
+  border-radius: 50%;
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  top: 70px;
+  left: -13.5px;
+}
