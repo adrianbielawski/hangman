@@ -7,7 +7,7 @@
 .gallows-component span {
   position: absolute;
   display: block;
-  background-color: var(--brown);
+  background-color: var(--medium-brown);
 }
 
 .gallows-component .foot {

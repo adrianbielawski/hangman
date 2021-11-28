@@ -4,6 +4,6 @@
   right: 28.5%;
   width: 10px;
   height: 70px;
-  background-color: var(--black);
+  background-color: var(--normal-black);
   z-index: -1;
 }

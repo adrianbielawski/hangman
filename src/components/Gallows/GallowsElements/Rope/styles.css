@@ -9,13 +9,13 @@
   position: absolute;
   width: 2px;
   height: 70px;
-  background-color: var(--grey);
+  background-color: var(--dark-grey);
   left: 50%
 }
 
 .rope .round {
   display: block;
-  border: 3px solid var(--grey);
+  border: 3px solid var(--dark-grey);
   border-radius: 50%;
   width: 30px;
   height: 35px;

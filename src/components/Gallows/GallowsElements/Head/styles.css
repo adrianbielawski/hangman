@@ -4,9 +4,9 @@
   right: 23.5%;
   width: 50px;
   height: 50px;
-  border: 3px solid var(--grey);
+  border: 3px solid var(--dark-grey);
   border-radius: 50%;
-  background-color: var(--yellow);
+  background-color: var(--medium-yellow);
 }
 
 .head .eye {
@@ -16,7 +16,7 @@
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  background-color: var(--blue);
+  background-color: var(--medium-blue);
   z-index: 1;
 }
 
@@ -35,7 +35,7 @@
   display: block;
   width: 25px;
   height: 22px;
-  border-top: 3px solid var(--brown);
+  border-top: 3px solid var(--medium-brown);
   border-radius: 163px;
   z-index: 1;
 }

@@ -39,11 +39,11 @@
 }
 
 .game-page .game-ended.success p {
-  color: var(--green);
+  color: var(--medium-green);
 }
 
 .game-page .game-ended.failure p {
-  color: var(--red);
+  color: var(--medium-red);
 }
 
 .game-page .game-ended .title {

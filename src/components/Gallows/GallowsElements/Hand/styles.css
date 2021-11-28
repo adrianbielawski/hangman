@@ -3,7 +3,7 @@
   top: 134px;
   width: 10px;
   height: 40px;
-  background-color: var(--black);
+  background-color: var(--normal-black);
   z-index: -1;
 }
 
