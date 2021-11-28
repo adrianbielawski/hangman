@@ -28,3 +28,33 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
+
+.game-page .game-ended {
+  grid-column: 1 /3;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-page .game-ended.success p {
+  color: var(--green);
+}
+
+.game-page .game-ended.failure p {
+  color: var(--red);
+}
+
+.game-page .game-ended .title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.game-page .game-ended .message {
+  font-size: 2em;
+}
+
+.game-page .game-ended button {
+  margin-top: 30px;
+}

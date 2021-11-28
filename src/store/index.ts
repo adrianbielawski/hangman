@@ -1,10 +1,18 @@
 import { createContext } from 'react'
 import { cloneDeep } from 'lodash'
-import { Action, AddressesContextType, CHANGE_CATEGORY, CHANGE_WORD_TO_GUESS, State } from './types'
+import {
+  Action,
+  AddressesContextType,
+  CHANGE_CATEGORY,
+  CHANGE_WORD_TO_GUESS,
+  CLEAR_STATE,
+  State,
+} from './types'
 
 export const initialState: State = {
   selectedCategory: '',
   wordToGuess: null,
+  uniqueLetters: []
 }
 
 const initialContext: AddressesContextType = {
@@ -22,7 +30,10 @@ export const reducer = (state: State, action: Action) => {
       return newState
     case CHANGE_WORD_TO_GUESS:
       newState.wordToGuess = action.word
+      newState.uniqueLetters = action.uniqueLetters
       return newState;
+    case CLEAR_STATE:
+      return initialState;
     default:
       throw new Error('Invalid Action');
   }

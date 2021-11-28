@@ -56,10 +56,14 @@ const CategoryMenu = () => {
   const handleStart = () => {
     const categoryWords = getCategoryWords(state.selectedCategory)
     const random = getRandom(categoryWords.length)
+    const wordObj = categoryWords[random]
+    const wordLetters = wordObj.word.split('').filter(l => l !== ' ')
+    const uniqueLetters = Array.from(new Set(wordLetters))
 
     dispatch({
       type: CHANGE_WORD_TO_GUESS,
-      word: categoryWords[random].id
+      word: wordObj.id,
+      uniqueLetters,
     })
   }
 
