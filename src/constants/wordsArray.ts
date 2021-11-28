@@ -2,7 +2,7 @@
 export default [
   {
     category: 'Programming language',
-    wodrs: [
+    words: [
       {
         id: 0,
         word: 'javascript',
@@ -35,7 +35,7 @@ export default [
   },
   {
     category: 'Programming paradigm',
-    wodrs: [
+    words: [
       {
         id: 0,
         word: 'imperative',
@@ -46,7 +46,7 @@ export default [
       },
       {
         id: 2,
-        word: 'finctional',
+        word: 'functional',
       },
       {
         id: 3,

@@ -4,7 +4,7 @@ import { Action, AddressesContextType, CHANGE_CATEGORY, CHANGE_WORD_TO_GUESS, St
 
 export const initialState: State = {
   selectedCategory: '',
-  wordToGuess: '',
+  wordToGuess: null,
 }
 
 const initialContext: AddressesContextType = {

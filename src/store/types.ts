@@ -10,14 +10,14 @@ export interface ChangeCategory {
 
 export interface ChangeWordToGuess {
   type: typeof CHANGE_WORD_TO_GUESS
-  word: string
+  word: number | null
 }
 
 export type Action = ChangeCategory | ChangeWordToGuess
 
 export interface State {
   selectedCategory: string
-  wordToGuess: string
+  wordToGuess: number | null
 }
 
 export interface AddressesContextType {
