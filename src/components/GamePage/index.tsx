@@ -1,6 +1,7 @@
 import './styles.css'
 import Keyboard from 'components/Keyboard'
 import { useState } from 'react'
+import CurrentResult from 'components/CurrentResult'
 
 const GamePage = () => {
   const [selectedLetters, setSelectedLetters] = useState<string[]>([])
@@ -14,13 +15,13 @@ const GamePage = () => {
 
   return (
     <div className='game-page'>
-      <div className='gallows-wrapper'>
+      <div className='grid-item gallows-wrapper'>
 
       </div>
-      <div className='result-wrapper'>
-        
+      <div className='grid-item result-wrapper'>
+        <CurrentResult selectedLetters={selectedLetters} />
       </div>
-      <div className='keyboard-wrapper'>
+      <div className='grid-item keyboard-wrapper'>
         <Keyboard
           selectedLetters={selectedLetters}
           onLetterClick={handleLetterClick}

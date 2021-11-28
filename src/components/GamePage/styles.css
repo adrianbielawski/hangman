@@ -2,6 +2,16 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  height: 100%;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.game-page .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .game-page .gallows-wrapper {

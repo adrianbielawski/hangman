@@ -1,0 +1,37 @@
+.current-result {
+  text-align: center;  
+}
+
+.current-result .category {
+  font-size: 1.3rem;
+}
+
+.current-result .guessed-letters {
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+
+.current-result .guessed-letters .single-word {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.current-result .guessed-letters .single-word:last-child {
+  margin-right: 0;
+}
+
+.current-result .guessed-letters .letter {
+  display: inline-block;
+  width: 1.1em;
+  font-weight: 600;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.current-result .guessed-letters .letter:first-child {
+  margin-left: 0;
+}
+
+.current-result .guessed-letters .letter:last-child {
+  margin-right: 0;
+}
