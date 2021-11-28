@@ -1,0 +1,41 @@
+.head {
+  position: absolute;
+  top: 85px;
+  right: 23.5%;
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--grey);
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.head .eye {
+  position: absolute;
+  top: 10px;
+  display: block;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--blue);
+  z-index: 1;
+}
+
+.head .eye.left {
+  left: 10px;
+}
+
+.head .eye.right {
+  right: 10px;
+}
+
+.head .lips {
+  position: absolute;
+  top: 27px;
+  left: calc(50% - 13px);
+  display: block;
+  width: 25px;
+  height: 22px;
+  border-top: 3px solid var(--brown);
+  border-radius: 163px;
+  z-index: 1;
+}

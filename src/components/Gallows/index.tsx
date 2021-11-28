@@ -1,4 +1,4 @@
-import { GallowsComponent, Rope } from './GallowsElements'
+import { GallowsComponent, Rope, Head } from './GallowsElements'
 import './styles.css'
 
 interface Props {
@@ -14,6 +14,9 @@ const Gallows: React.FC<Props> = ({ elementsToShow }) => {
       )}
       {elementsToShow > 1 && (
         <Rope />
+      )}
+      {elementsToShow > 2 && (
+        <Head />
       )}
     </div>
   )
