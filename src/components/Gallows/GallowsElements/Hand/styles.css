@@ -1,0 +1,18 @@
+.hand {
+  position: absolute;
+  top: 134px;
+  width: 10px;
+  height: 40px;
+  background-color: var(--black);
+  z-index: -1;
+}
+
+.hand.left {
+  right: 32%;
+  transform: rotateZ(45deg);
+}
+
+.hand.right {
+  right: 25%;
+  transform: rotateZ(135deg);
+}
