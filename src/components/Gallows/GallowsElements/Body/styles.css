@@ -1,0 +1,9 @@
+.body {
+  position: absolute;
+  top: 134px;
+  right: 28.5%;
+  width: 10px;
+  height: 70px;
+  background-color: var(--black);
+  z-index: -1;
+}
