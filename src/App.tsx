@@ -15,7 +15,7 @@ function App() {
   return (
     <Context.Provider value={contextValue}>
       <div className="App">
-        {!state.wordToGuess ? (
+        {state.wordToGuess === null ? (
           <CategoryMenu />
         ) : (
           <GamePage />
