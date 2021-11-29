@@ -66,17 +66,17 @@ const GamePage = () => {
     <div className='game-page'>
       {!gameEnded ? (
         <>
-          <div className='grid-item gallows-wrapper'>
+          <div className='gallows-wrapper'>
             <Gallows elementsToShow={wrongGuesses} />
           </div>
-          <div className='grid-item result-wrapper'>
+          <div className='result-wrapper'>
             <CurrentResult selectedLetters={selectedLetters} />
-          </div>
-          <div className='grid-item keyboard-wrapper'>
+            <div className='keyboard-wrapper'>
             <Keyboard
               selectedLetters={selectedLetters}
               onLetterClick={handleLetterClick}
             />
+            </div>
           </div>
         </>
       ) : (
